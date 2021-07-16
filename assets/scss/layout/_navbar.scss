@@ -1,0 +1,18 @@
+.navbar {
+    background-color: $white;
+    height: 4.375rem;
+    padding: 0 4.75rem;
+}
+
+.navbar__container {
+    .navbar__logo {
+        width: 1.8125rem;
+        margin-right: 4.1875rem;
+        .navbar__link-container{
+            .navbar__link{
+                margin: 0 2rem;
+                color: $quick-silver;
+            }
+        }
+    }
+}

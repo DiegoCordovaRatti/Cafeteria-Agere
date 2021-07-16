@@ -1,0 +1,30 @@
+.navbar__button {
+    font-size: $medium;
+    padding: .4375rem .5rem;
+
+    &.navbar__button--passive {
+        border: solid $spanish-gray;
+        border-width: .0625rem;
+        color: $spanish-gray;
+        transition: 500ms ease;
+        &:hover {
+            border: solid $outer-space;
+            border-width: .0625rem;
+            color: $black;
+        }
+    }
+
+    &.navbar__button--active {
+        border: solid $shiny-shamrock;
+        background-color: $shiny-shamrock;
+        border-width: .0625rem;
+        color: $white;
+        transition: 500ms ease;
+        &:hover {
+            background-color: $turquoise-green;
+            border: solid $turquoise-green;
+            border-width: .0625rem;
+            color: $outer-space;
+        }
+    }
+}
